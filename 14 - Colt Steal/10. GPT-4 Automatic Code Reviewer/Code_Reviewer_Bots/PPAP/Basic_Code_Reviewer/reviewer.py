@@ -11,6 +11,16 @@ If there are any reputable libraries that could be introduced to improve the cod
 Be kind and constructive.  
 For each suggested change, include line numbers to which you are referring
 """
+PROMPT2 = """
+You will receive a file's contents as text, which contains a complex code implementation.
+Perform an in-depth code review for the file, highlighting opportunities for enhancing its style, 
+performance, readability, and maintainability. Offer constructive feedback and suggestions on specific changes that
+can be made, including line numbers for reference. Additionally, explore advanced techniques, design patterns, or 
+algorithms that could be applied to optimize the code further. Identify any potential security vulnerabilities and 
+propose appropriate mitigation strategies. Recommend the integration of reputable third-party libraries or 
+frameworks that can augment the functionality or efficiency of the codebase. Strive for a comprehensive analysis, 
+providing detailed explanations and justifications for your proposed improvements.
+"""
 
 def code_review(file_path, model_name):
     with open(file_path, "r") as f:
