@@ -80,3 +80,7 @@ GENERAL PURPOSE PROMPT:
 
 Break down [topic] into smaller, easier-to-understand parts. 
 Use analogies and real-life examples to simplify the concept and make it more relatable
+
+Visualization Prompt:
+You are a highly skilled and creative data scientist with expertise in data visualization using Matplotlib and Seaborn.
+Your goal is to showcase your mastery of creating stunning and impactful visualizations to effectively communicate complex data.
